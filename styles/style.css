@@ -78,4 +78,32 @@ nav li a {
 
 .banner-img {
     margin-top: 40px;
+    width: 100%;
+}
+
+
+/* Responsive styles with media query */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul>li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
